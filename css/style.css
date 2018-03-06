@@ -55,3 +55,48 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.skills-icons{
+  height: 80px;
+}
+
+#express-icon{
+  height: 40px;
+}
+
+#mongo{
+  height: 50px;
+}
+
+#react{
+  height: 90px;
+}
+
+#mongo-col{
+  position: relative;
+  top: 30px;
+}
+
+#express-col{
+  position:relative;
+  top: 35px;
+}
+
+#jQuery-col{
+  position:relative;
+  top: 35px;
+}
+#jquery{
+width: 184px;
+height: 50px;
+}
+.icon-footer{
+  height: 100px;
+  position: relative;
+  left: 200px;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: #3AAFA9;
+}
