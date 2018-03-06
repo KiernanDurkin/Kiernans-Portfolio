@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color:#FEFFCC;
 }
 
 p {
@@ -98,5 +98,24 @@ height: 50px;
 
 body{
   font-family: 'Open Sans', sans-serif;
-  background: #3AAFA9;
+  background: #B04438;
+}
+.navbar{
+  background:#466E90;
+
+}
+.footer-copyright{
+    background:#466E90;
+}
+
+.icon-links {
+    height: 40px;
+    margin-top: 10px;
+}
+#index-banner {
+    width: 100%;
+}
+#index-head{
+  color:black;
+  font-weight: bold;
 }
