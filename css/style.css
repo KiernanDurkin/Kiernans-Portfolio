@@ -107,6 +107,12 @@ body{
 .footer-copyright{
     background:#466E90;
 }
+.card-pic{
+  height: 250px;
+}
+.card .card-reveal{
+  background-color: #466e90;
+}
 
 .icon-links {
     height: 40px;
