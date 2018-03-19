@@ -11,10 +11,14 @@ nav .brand-logo {
     color:#FEFFCC;
 }
 
+
 p {
   line-height: 2rem;
 }
 
+#header-name{
+  font-family: LeagueSpartan-Bold;
+}
 .button-collapse {
   color: #26a69a;
 }
