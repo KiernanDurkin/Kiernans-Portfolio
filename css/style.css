@@ -11,13 +11,9 @@ nav .brand-logo {
     color:#FEFFCC;
 }
 
-<<<<<<< HEAD
-
-=======
 h1{
   font-size: 7.2rem;
 }
->>>>>>> befddb8bc41a2237750748ce994cb7e87ca7eb56
 p {
   line-height: 2rem;
 }
@@ -114,6 +110,13 @@ body{
   background:#466E90;
 
 }
+.card-pic{
+  height: 250px;
+}
+.card .card-reveal{
+  background-color: #466e90;
+}
+
 .footer-copyright{
     background:#466E90;
 }
