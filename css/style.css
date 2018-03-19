@@ -11,7 +11,13 @@ nav .brand-logo {
     color:#FEFFCC;
 }
 
+<<<<<<< HEAD
 
+=======
+h1{
+  font-size: 7.2rem;
+}
+>>>>>>> befddb8bc41a2237750748ce994cb7e87ca7eb56
 p {
   line-height: 2rem;
 }
@@ -111,12 +117,6 @@ body{
 .footer-copyright{
     background:#466E90;
 }
-.card-pic{
-  height: 250px;
-}
-.card .card-reveal{
-  background-color: #466e90;
-}
 
 .icon-links {
     height: 40px;
@@ -128,4 +128,37 @@ body{
 #index-head{
   color:black;
   font-weight: bold;
+  font-family:'whitehallregular';
 }
+#head{
+  font-family: 'alpha_echoregular';
+  color:black;
+}
+@font-face {
+  font-family: 'alpha_echoregular';
+  src: url('alpha_echo-webfont.eot');
+  src: url('alpha_echo-webfont.eot?#iefix') format('embedded-opentype'),
+       url('alpha_echo-webfont.woff2') format('woff2'),
+       url('alpha_echo-webfont.woff') format('woff'),
+       url('alpha_echo-webfont.ttf') format('truetype'),
+       url('alpha_echo-webfont.svg#alpha_echoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family:'whitehallregular';
+  src: url('whitehall-webfont.eot');
+  src: url('whitehall-webfont.eot?#iefix') format('embedded-opentype'),
+       url('whitehall-webfont.woff2') format('woff2'),
+       url('whitehall-webfont.woff') format('woff'),
+       url('whitehall-webfont.ttf') format('truetype'),
+       url('whitehall-webfont.svg#whitehallregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
