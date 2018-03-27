@@ -54,6 +54,16 @@ p {
   #index-banner .section {
     top: 0;
   }
+  #index-head{
+    font-weight: normal;
+
+  }
+  h3{
+    font-size: 1.92rem;
+  }
+  #head{
+    font-size: 7.2rem;
+  }
 }
 
 .icon-block {
