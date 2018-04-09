@@ -5,13 +5,16 @@
  *
  * Made By MaterializeCSS.com
  */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 nav ul a,
 nav .brand-logo {
     color:#FEFFCC;
     line-height: 39px;
-    position: relative;
-    left: 274px;
+    
 }
 nav{
   line-height: 39px;
@@ -46,6 +49,9 @@ p {
     position: absolute;
     top: 40%;
   }
+  .container {
+    width: 100%;
+}
   #index-banner .section {
     top: 10%;
   }
