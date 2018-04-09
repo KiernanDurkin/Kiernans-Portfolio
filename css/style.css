@@ -10,7 +10,8 @@ nav ul a,
 nav .brand-logo {
     color:#FEFFCC;
     line-height: 39px;
-
+    position: relative;
+    left: 274px;
 }
 nav{
   line-height: 39px;
