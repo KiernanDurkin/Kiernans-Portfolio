@@ -53,6 +53,15 @@ p {
     top: 10%;
   }
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 
 @media only screen and (max-width : 660px) {
   #index-banner .section {
@@ -178,6 +187,10 @@ body{
 .input-field .prefix ~ input,{
   color:white;
 }
+.swal-overlay {
+  background-color:rgba(184, 14, 248, 0.7);
+}
+
 @font-face {
   font-family: 'alpha_echoregular';
   src: url('alpha_echo-webfont.eot');

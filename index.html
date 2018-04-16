@@ -333,7 +333,7 @@
 <h4 class="center"> If you wanna get in touch, talk to me about a project collaboration or just say hi, fill up the awesome form below or send
 an email to kiernan.durkin@gmail.com and ~let's talk.</h4>
 <div class="row">
-  <form class="col s12 m12">
+  <form id = "myContactForm" class="col s12 m12">
     <div class="row">
       <div class="input-field col s12 m12">
         <i class="mdi-action-account-circle prefix"></i>
@@ -360,9 +360,7 @@ an email to kiernan.durkin@gmail.com and ~let's talk.</h4>
 
 </div>
 <!--row-->
-<button class="btn waves-effect waves-light center" type="submit" name="action">Send your message&nbsp;
-  <i class="mdi-content-send"></i>
-</button>
+<button class="btn waves-effect waves-light center" type="submit" name="action" onclick = "validation();">Send your message</button>
 
 
 
@@ -381,6 +379,8 @@ an email to kiernan.durkin@gmail.com and ~let's talk.</h4>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="js/sweetAlert.js"></script>
 
   </body>
 </html>
