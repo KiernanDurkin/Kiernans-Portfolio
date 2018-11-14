@@ -175,13 +175,14 @@ body{
 }
 #index-head{
   color:#cee4e2;
-  font-weight: bold;
-   font-family: 'capture_itregular';
-   line-height: 0px;
+  
+  font-family: 'Mona Shark';
+  line-height: 0px;
 }
 #head{
- font-family: 'capture_itregular';
-  color:#016300;
+  font-family: 'Mona Shark';
+ 
+  color:#076c13;
   font-size:12.2rem; 
 }
 .input-field .prefix ~ input,{
@@ -242,6 +243,13 @@ body{
 
 }
 
+
+@font-face {
+  font-family: 'Mona Shark';
+  font-style: normal;
+  font-weight: normal;
+  src: url('Mona Shark.otf') format("opentype");
+}
 
 
 input:not([type]), input[type="text"]:not(.browser-default), input[type="password"]:not(.browser-default), input[type="email"]:not(.browser-default), input[type="url"]:not(.browser-default), input[type="time"]:not(.browser-default), input[type="date"]:not(.browser-default), input[type="datetime"]:not(.browser-default), input[type="datetime-local"]:not(.browser-default), input[type="tel"]:not(.browser-default), input[type="number"]:not(.browser-default), input[type="search"]:not(.browser-default), textarea.materialize-textarea{
